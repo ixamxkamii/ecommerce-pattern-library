@@ -1,0 +1,95 @@
+:root {
+  --color-primary: #cca2bb;
+  --color-primary-bright: #e38bba;
+  --color-primary-light: #f7e9f0;
+  --color-primary-dark: #986184;
+  --color-secondary: #a98cc1;
+  --color-secondary-light: #ccb4df;
+  --color-secondary-dark: #725e84;
+  --color-background: #f3f3f4;
+
+  --font-primary: "Muli", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-size: 8.4375rem;
+  font-weight: 600;
+  line-height: 9rem;
+  color: var(--color-primary-bright)
+}
+
+h2 {
+  font-size: 4.75rem;
+  line-height: 5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+h3 {
+  font-size: 3.75rem;
+  font-weight: 800;
+  line-height: 4rem;
+  color: var(--color-primary-bright);
+}
+
+h4 {
+  font-size: 3rem;
+  line-height: 3.25rem;
+  color: var(--color-primary);
+}
+
+h5 {
+  font-size: 2.1875rem;
+  line-height: 2.4rem;
+  color: var(--color-primary);
+}
+
+h6 {
+  font-size: 1.875;
+  line-height: 2rem;
+  color: var(--color-primary);
+}
+
+em {
+  font-weight: 600;
+}
+
+i {
+  font-style: italic;
+}
+
+ul {
+  color: var(--color-primary);
+  list-style-type: none;
+  font-weight: 600;
+}
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol > li {
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  color: var(--color-primary);
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: 700;
+  text-align: right;
+  content: counter(item) ".";
+}
+
+a {
+  color: var(--color-primary-dark)
+}
