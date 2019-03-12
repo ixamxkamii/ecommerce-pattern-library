@@ -3,7 +3,7 @@ description: |
   Cards should be used when there are multiple image and type groups.
 
 patterns:
-    category:
+    card-category:
       title: "Category Card"
       description: |
         Category is to be used on the homepage to lead the viewer to either the sweet or the savory page. Both shall include a heading, some descriptive text and a button.
@@ -25,14 +25,13 @@ patterns:
           type: url
           example: "/products/"
           required: false
-    product:
+    product-card:
       title: "Product Card"
       description: |
-        Product cards are used to lead users to the product details page of the product listed.
+        Product cards are used to lead users to the product details page of the product listed. They are used on the product page and in product details to lead users to related products.
       fields:
-        - name: heading
-          type: string
-          example: "Raspberry Macaron"
-        - name: image
-          type: string
-          example: "/images/product/card-raspberry-macaron.png"
+        - name: name
+          type: object
+          data:
+            source: "site.products[0]"
+            type: Product

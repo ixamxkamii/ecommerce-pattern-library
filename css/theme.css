@@ -18,42 +18,36 @@ html {
 }
 
 h1 {
-  font-size: 8.4375rem;
+  font-size: 3rem;
+  line-height: 3.25rem;
   font-weight: 600;
-  line-height: 9rem;
   color: var(--color-primary-bright)
 }
 
 h2 {
-  font-size: 4.75rem;
-  line-height: 5rem;
+  font-size: 2.1875rem;
+  line-height: 2.4rem;
   font-weight: 600;
   color: var(--color-primary);
 }
 
 h3 {
-  font-size: 3.75rem;
-  font-weight: 800;
+  font-size: 1.875;
+  line-height: 2rem;
   line-height: 4rem;
   color: var(--color-primary-bright);
 }
 
 h4 {
-  font-size: 3rem;
-  line-height: 3.25rem;
   color: var(--color-primary);
 }
 
 h5 {
-  font-size: 2.1875rem;
-  line-height: 2.4rem;
   color: var(--color-primary);
   text-align: center;
 }
 
 h6 {
-  font-size: 1.875;
-  line-height: 2rem;
   color: var(--color-primary);
 }
 

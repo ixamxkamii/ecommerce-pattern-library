@@ -3,4 +3,19 @@ layout: default
 highlight_nav: products
 ---
 
-{% pattern banners/banner-right image="/images/sweets.jpg" heading="Sweets" text="Sweet sugary treats to sooth your sweet tooth" %}
+{% pattern banners/banner-right image="/images/sweets.jpg" heading="Sweet" text="Sweet sugary treats to sooth your sweet tooth" %}
+
+<div class="gutter">
+  <h2 class="pad-t">Macarons</h2>
+  <p>a small round cake with a meringue-like consistency, made with egg whites, sugar, and powdered almonds and consisting of two halves sandwiching a creamy filling.</p>
+</div>
+
+<div>
+  <div class="grid gutter-1-2 push">
+    {% for product in site.products %}
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      {% pattern cards/product-card data=product %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
