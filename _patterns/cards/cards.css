@@ -1,0 +1,21 @@
+.product-circle {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.product-card {
+  max-width: 300px;
+}
+
+.product-card:hover {
+  background-color: var(--color-background-dark);
+}
+
+.category-card {
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.pink-dark {
+  color: var(--color-primary-dark);
+}

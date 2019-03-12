@@ -1,0 +1,4 @@
+title: "Header"
+description: |
+  The header contains the navigation and should be used on any pages that the user should be able to navigate to and from different pages.
+background: "--color-primary-light"

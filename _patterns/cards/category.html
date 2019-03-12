@@ -1,0 +1,10 @@
+<div class="category-card relative">
+  <img class="img-flex" src="{{include.image}}"
+  <div class="pin-center">
+    <h5 class="push-1-2 text-center">{{include.heading}}</h5>
+    <p class="push-1-2 pink-dark text-center">{{include.text}}</p>
+    {% if include.button_url %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
+  </div>
+</div>

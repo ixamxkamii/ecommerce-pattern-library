@@ -1,0 +1,49 @@
+title: "Banners"
+description: |
+  Banners should be used after the header to introduce the info present on that page.
+
+patterns:
+    banner-right:
+      title: "Banner Right"
+      description: |
+        Banner right is used when the text is to go on the right side of the banner. The alignment of the text will depend on the banner image.
+      fields:
+        - name: heading
+          type: string
+          example: "Valentine's Day Special"
+        - name: text
+          type: string
+          example: "For a limited time only."
+        - name: image
+          type: string
+          example: "/images/banner-home.jpg"
+        - name: button_text
+          type: string
+          example: "Learn more"
+          required: false
+        - name: button_url
+          type: url
+          example: "/products/"
+          required: false
+    banner-left:
+      title: "Banner Left"
+      description: |
+        Banner left is used when the text is to go on the left side of the banner. The alignment of the text will depend on the banner image.
+      fields:
+        - name: heading
+          type: string
+          example: "Jolie Point"
+        - name: text
+          type: string
+          example: "Join our new loyalty program."
+        - name: image
+          type: string
+          example: "/images/banner-point.jpg"
+        - name: button_text
+          type: string
+          example: "Learn more"
+          required: false
+        - name: button_url
+          type: url
+          example: "/products/"
+          required: false

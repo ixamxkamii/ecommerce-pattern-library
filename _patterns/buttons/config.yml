@@ -1,0 +1,61 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+    basic:
+      title: "Basic"
+      description: |
+        Default to using the basic button. It should always be used if there is only one button present on that element.
+      fields:
+        - name: text
+          type: string
+          example: "Learn more"
+        - name: url
+          type: url
+          example: "/products/"
+      width: "12em"
+      background: "--color-primary-light"
+    ghost:
+      title: "Ghost"
+      description: |
+        The ghost button is to be used on busy images.
+      fields:
+        - name: text
+          type: string
+          example: "Learn more"
+        - name: url
+          type: url
+          example: "/products/"
+      width: "12em"
+    light:
+      title: "Light"
+      description: |
+        The light button is to be used as the second button on an element that requires 2 different buttons.
+      fields:
+        - name: text
+          type: string
+          example: "See more"
+        - name: url
+          type: url
+          example: "/products/"
+      width: "12em"
+    cart:
+      title: "Cart"
+      description: |
+        The cart button is exclusively used to lead a user to the check out page or to add an item to cart.
+      width: "12em"
+    hamburger:
+      title: "Hamburger"
+      description: |
+        The hamburger button is exclusively used to hide the nav on smaller screen sizes.
+      width: "12em"
+    submit:
+      title: "Submit"
+      description: |
+        The submit button is to be used to submit forms.
+      fields:
+        - name: text
+          type: string
+          example: "Submit"
+      width: "12em"

@@ -1,0 +1,58 @@
+.large-nav, .small-nav, .x-small-nav {
+  background-color: var(--color-primary-light);
+}
+
+.nav-link-l:current {
+  background-color: var(--color-primary-dark);
+  color: var(--color-background);
+}
+
+.logo-l {
+  min-width: 100px;
+  margin-left: 50px;
+  max-width: 150px;
+}
+
+.logo-s {
+  min-width: 75px;
+  max-width: 100px;
+}
+
+.logo-xs {
+  min-width: 50px;
+  max-width: 75px;
+}
+
+.nav-link-l:hover {
+  color: var(--color-primary-bright);
+}
+
+.nav-link-l-2 {
+  color: var(--color-secondary-dark);
+}
+
+.nav-link-l-2:hover {
+  color: var(--color-secondary);
+}
+
+.btn-hamburger {
+  background-color: var(--color-primary-bright);
+  border-color: var(--color-primary-bright);
+  border-radius: 0;
+}
+
+.btn-hamburger:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-cart {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-cart:hover {
+  background-color: var(--color-secondary-dark);
+  border-color: var(--color-secondary-dark);
+}

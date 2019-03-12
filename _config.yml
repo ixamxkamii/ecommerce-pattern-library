@@ -2,4 +2,22 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.googleapis.com/css?family=Muli"
+    title: "Jolie Patisserie"
+    description: |
+      A pastry shop that offers a multitude of products for good prices.
+    font_url: "https://fonts.googleapis.com/css?family=Muli"
+    colors:
+      background: "--color-background"
+      accent: "--color-primary"
+      patterns:
+        brand.logos: "--color-primary-light"
+    rationales:
+      typefaces.primary: |
+        Muli was selected because of its legibility and because of it's sweet nature. Muli is the only typeface used on this site.
+      colors.primary: |
+        The primary colours were chosen because of it's delicate tone. It can be bright or soft, yet it still has the same tone.
+      colors.secondary: |
+        The secondary colours were chosen to contrast the primary but still have the same type of personality. These colours are more rich and used to call attention to certain parts.
+    layouts:
+      default: |
+        The default layout should be used for almost every page, it includes the website's primary header & footer.

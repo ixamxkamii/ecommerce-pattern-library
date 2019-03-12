@@ -6,7 +6,9 @@
   --color-secondary: #a98cc1;
   --color-secondary-light: #ccb4df;
   --color-secondary-dark: #725e84;
-  --color-background: #f3f3f4;
+  --color-background: #fff;
+  --color-background-dark: #f3f3f4;
+
 
   --font-primary: "Muli", sans-serif;
 }
@@ -46,6 +48,7 @@ h5 {
   font-size: 2.1875rem;
   line-height: 2.4rem;
   color: var(--color-primary);
+  text-align: center;
 }
 
 h6 {
@@ -68,6 +71,10 @@ ul {
   font-weight: 600;
 }
 
+::before {
+  display: none;
+}
+
 ol {
   margin: 0 0 1.5em;
   padding: 0;
@@ -84,12 +91,24 @@ ol > li:before {
   color: var(--color-primary);
   display: inline-block;
   width: 1em;
-  padding-right: 0.5em;
+  padding-right: 2.5em;
   font-weight: 700;
   text-align: right;
   content: counter(item) ".";
 }
 
 a {
-  color: var(--color-primary-dark)
+  color: var(--color-primary-dark);
+}
+
+mark {
+  background-color: var(--color-primary-light);
+}
+
+em {
+  color: var(--color-primary-dark);
+}
+
+a {
+  text-decoration: none;
 }

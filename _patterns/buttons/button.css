@@ -1,0 +1,54 @@
+.btn {
+  background-color: var(--color-primary-bright);
+  border-color: var(--color-primary-bright);
+  border-radius: 0;
+  color: var(--color-background);
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-radius: 0;
+  color: var(--color-primary-bright);
+}
+
+.btn-ghost:hover {
+  color: var(--color-background);
+}
+
+.btn-light {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-light:hover {
+  background-color: var(--color-secondary-dark);
+  border-color: var(--color-secondary-dark);
+}
+
+.btn-hamburger {
+  background-color: var(--color-primary-bright);
+  border-color: var(--color-primary-bright);
+  border-radius: 0;
+}
+
+.btn-hamburger:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-cart {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  border-radius: 0;
+}
+
+.btn-cart:hover {
+  background-color: var(--color-secondary-dark);
+  border-color: var(--color-secondary-dark);
+}

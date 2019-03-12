@@ -1,0 +1,17 @@
+title: "Navigations & Sections"
+description: |
+  Navigations are used to navigate to different pages.
+  Sections are used to seperate areas in the website.
+background: "--color-primary-light"
+
+patterns:
+    product-filter:
+      title: "Product Filter"
+      description: |
+        Product Filters are used when the user should have the option to have a more specific area to browse.
+      width: "16em"
+    product-filter-small-screen:
+      title: "Product Filter for Small Screens"
+      description: |
+        The product filters for small screens have the same use as the regular filters but they are made for screens smaller then 640px.
+      width: "16em"

@@ -1,0 +1,42 @@
+<div class="navigation">
+  <nav>
+    <ul class="grid large-nav">
+      <li class="unit unit-xs-hidden unit-s-hidden m-1-3 l-1-3"><a href="/"><img class="logo-l island-1-4" src="/images/logo.svg" alt=""></a></li>
+      <div class="unit unit-xs-hidden unit-s-hidden m-1-3 l-1-3 list-group-inline unit-content-center-horizontal">
+        <li class="{% if page.highlight_nav == 'products' %}current{% endif %}"><a class="island-1-4 push-r-1-2 nav-link-l" href="/products/">Sweet</a></li>
+        <li class="{% if page.highlight_nav == 'savory' %}current{% endif %}"><a class="island-1-4 push-r-1-2 nav-link-l" href="#">Savory</a></li>
+        <li class="{% if page.highlight_nav == 'locations' %}current{% endif %}"><a class="island-1-4 push-r-1-2 nav-link-l" href="#">Locations</a></li>
+        <li class="{% if page.highlight_nav == 'about' %}current{% endif %}"><a class="island-1-4 nav-link-l" href="#">About</a></li>
+      </div>
+      <div class="unit unit-xs-hidden unit-s-hidden m-1-3 l-1-3 list-group-inline unit-content-center-horizontal">
+        <li><a class="nav-link-l-2 island-1-4 push-r-1-2" href="#">Login</a></li>
+        <li><a class="nav-link-l-2 island-1-4 push-r-1-2" href="#">Sign Up</a></li>
+        {% pattern buttons/cart %}
+      </div>
+    </ul>
+    <ul class="grid">
+      <li class="unit unit-xs-hidden s-1 unit-m-hidden unit-l-hidden text-center small-nav"><a href="/"><img class="logo-s" src="/images/logo.svg" alt=""></a></li>
+      <li class="unit unit-xs-hidden s-1-2 unit-m-hidden unit-l-hidden btn btn-hamburger text-center">
+        <a href="#">
+          <i class="icon i-20">
+            <svg><use xlink:href="/images/icons.svg#hamburger"/></svg>
+          </i>
+        </a>
+      </li>
+      <li class="unit unit-xs-hidden s-1-2 unit-m-hidden unit-l-hidden btn btn-cart text-center">
+        <a href="#">
+          <i class="icon i-20">
+            <svg><use xlink:href="/images/icons.svg#cart"/></svg>
+          </i>
+        </a>
+      </li>
+    </ul>
+    <ul class="grid x-small-nav">
+      <li class="unit xs-1-2 unit-s-hidden unit-m-hidden unit-l-hidden"><a href="#"><img class="logo-xs island-1-4" src="/images/logo.svg" alt=""></a></li>
+      <li class="unit xs-1-2 unit-s-hidden unit-m-hidden unit-l-hidden text-right">
+        {% pattern buttons/hamburger %}
+        {% pattern buttons/cart %}
+      </li>
+    </ul>
+  </nav>
+</div>

@@ -1,0 +1,4 @@
+title: "Footer"
+description: |
+  The footers contains a smaller navigation then the header and should be used on any pages that the user should be able to navigate to and from different pages and to give links to social media.
+background: "--color-primary-light"
