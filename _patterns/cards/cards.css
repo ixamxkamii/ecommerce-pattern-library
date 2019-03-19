@@ -11,11 +11,6 @@
   background-color: var(--color-background-dark);
 }
 
-.category-card {
-  max-width: 500px;
-  overflow: hidden;
-}
-
 .pink-dark {
   color: var(--color-primary-dark);
 }

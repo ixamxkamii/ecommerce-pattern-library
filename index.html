@@ -1,5 +1,19 @@
 ---
 layout: default
 ---
+<div class="push">
+  {% pattern banners/banner-right button_text="Shop Now" button_url="/products/" image="/images/banner-home.jpg" heading="Valentines Day Special" text="For a Limited Time Only" %}
+</div>
 
-{% pattern banners/banner-right button_text="Learn more" button_url="/products/" image="/images/banner-home.jpg" heading="Valentines Day Special" text="For a Limited Time Only" %}
+<div class="grid push">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+    {% pattern cards/card-category button_text="See more" button_url="/products/" image="/images/pink-pastries.jpg" heading="Sweet" text="Sweet, Sugary treats to sooth your sweet tooth." %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+    {% pattern cards/card-category button_text="See more" button_url="#" image="/images/savory-croissant.jpg" heading="Savory" text="Rich, savory flavours leave you wanting more" %}
+  </div>
+</div>
+
+<div class="push">
+  {% pattern banners/banner-left button_text="Learn more" button_url="#" image="/images/banner-point.jpg" heading="Jolie Point" text="Now collect rewards by joining our loyalty program." %}
+</div>

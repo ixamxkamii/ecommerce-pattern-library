@@ -5,6 +5,7 @@ description: |
 non_conflict: true
 image: "/images/product/coffee-macaron.jpg"
 price: 20
+amount: 6
 ingredients:
   - Almonds
   - Powdered Sugar

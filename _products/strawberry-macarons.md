@@ -5,6 +5,7 @@ description: |
 non_conflict: false
 image: "/images/product/strawberry-macaron.jpg"
 price: 20
+amount: 6
 ingredients:
   - Almonds
   - Powdered Sugar
