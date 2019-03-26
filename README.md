@@ -43,4 +43,6 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ---
 
+## License & copyright
+
 &copy; Jolie Patisserie 2019

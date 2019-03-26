@@ -36,6 +36,10 @@ patterns:
       title: "Labels"
       description: |
         Labels are to go before all input field to give the user some direction of how to proceed.
+      fields:
+        - name: label
+          type: string
+          example: "Label"
       width: "16em"
     text-area:
       title: "Text Area"
