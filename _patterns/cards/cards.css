@@ -5,6 +5,7 @@
 
 .product-card {
   max-width: 300px;
+  min-height: 100%;
 }
 
 .product-card:hover {
