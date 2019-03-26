@@ -9,6 +9,16 @@ patterns:
       title: "Product Filter"
       description: |
         Product Filters are used when the user should have the option to have a more specific area to browse.
+      fields:
+        - name: text1
+          type: string
+          example: "Option 1"
+        - name: text2
+          type: string
+          example: "Option 2"
+        - name: text3
+          type: string
+          example: "Option 3"
       width: "16em"
     product-filter-small-screen:
       title: "Product Filter for Small Screens"

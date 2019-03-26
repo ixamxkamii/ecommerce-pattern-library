@@ -18,8 +18,9 @@
   display: none;
 }
 
-.bg {
+.filter-big {
   background-color: var(--color-background-dark);
+  height: 100%;
 }
 
 .product-option {
@@ -97,4 +98,8 @@
 .submenu > li:hover > a {
   background-color: var(--color-primary-dark);
   color: var(--color-background);
+}
+
+.push-up {
+  padding-top: 20px;
 }

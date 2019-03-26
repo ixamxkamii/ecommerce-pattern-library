@@ -16,29 +16,29 @@
         </div>
       </ul>
     </nav>
-    <ul class="grid">
-      <li class="unit unit-xs-hidden s-1 unit-m-hidden unit-l-hidden text-center small-nav"><a href="/"><img class="logo-s" src="/images/logo.svg" alt=""></a></li>
-      <div class="unit unit-xs-hidden s-1-2 unit-m-hidden unit-l-hidden btn btn-hamburger text-center">
-        <a href="#">
+    <div class="grid nav-grid">
+      <div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden text-center small-nav"><a href="/"><img class="logo-s" src="/images/logo.svg" alt=""></a></div>
+      <nav class="unit xs-1-2 s-1-2 unit-m-hidden unit-l-hidden ham-btn text-center">
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="nav-label island-1-2" for="nav-check">
           <i class="icon i-20">
             <svg><use xlink:href="/images/icons.svg#hamburger"/></svg>
           </i>
-        </a>
-      </div>
-      <li class="unit unit-xs-hidden s-1-2 unit-m-hidden unit-l-hidden btn btn-cart text-center">
+        </label>
+        <ul class="nav text-center push-0">
+          <li><a class="island-1-4" href="/products/">Sweet</a></li>
+          <li><a class="island-1-4" href="#">Savory</a></li>
+          <li><a class="island-1-4" href="#">Locations</a></li>
+          <li><a class="island-1-4" href="#">About</a></li>
+        </ul>
+      </nav>
+      <div class="unit xs-1-2 s-1-2 unit-m-hidden unit-l-hidden btn btn-cart text-center">
         <a href="#">
           <i class="icon i-20">
             <svg><use xlink:href="/images/icons.svg#cart"/></svg>
           </i>
         </a>
-      </li>
-    </ul>
-    <ul class="grid x-small-nav">
-      <li class="unit xs-1-2 unit-s-hidden unit-m-hidden unit-l-hidden"><a href="#"><img class="logo-xs island-1-4" src="/images/logo-32.svg" alt=""></a></li>
-      <li class="unit xs-1-2 unit-s-hidden unit-m-hidden unit-l-hidden text-right">
-        {% pattern buttons/hamburger %}
-        {% pattern buttons/cart %}
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
 </div>

@@ -56,3 +56,50 @@
   background-color: var(--color-secondary-dark);
   border-color: var(--color-secondary-dark);
 }
+
+.ham-btn {
+  background-color: var(--color-primary-bright);
+}
+
+.nav {
+  display: none;
+  list-style-type: none;
+  background-color: var(--color-primary);
+  width: 100vw;
+  padding: 0;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: var(--color-background);
+}
+
+.nav a:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-background);
+}
+
+.nav-label {
+  cursor: pointer;
+}
+
+.nav-label i {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+}
+
+label.nav-label::before {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-grid {
+  align-items: flex-start;
+}
