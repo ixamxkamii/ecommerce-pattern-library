@@ -106,3 +106,7 @@ em {
 a {
   text-decoration: none;
 }
+
+.dark-bg {
+  background-color: var(--color-background-dark);
+}
