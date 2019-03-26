@@ -9,7 +9,7 @@ layout: default
   <div class="unit xs-1 m-1-2 island">
     <h1 class="push-1-2">{{page.name}}</h1>
     <p class="push">{{page.description}}</p>
-    <h3 class="push-0">Ingredients</h3>
+    <h3 class="push-1-2">Ingredients</h3>
     {{page.ingredients | join: ", "}}
     <h2 class="giga pad-t">{{page.price}} / {{page.amount}}</h2>
     {% pattern forms/labels label="Amount" %}
