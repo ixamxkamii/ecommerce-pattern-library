@@ -4,8 +4,8 @@ description: |
   These valentine's day inspired macarons will make a perfect gift for all sweethearts.
 non_conflict: true
 image: "/images/product/valentine-macaron.jpg"
-price: 20
-amount: 6
+price: $20
+amount: half a dozen
 availability: limited
 ingredients:
   - Almonds

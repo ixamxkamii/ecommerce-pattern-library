@@ -66,3 +66,7 @@ input:focus, textarea:focus, select:focus {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+.number {
+  max-width: 150px;
+}

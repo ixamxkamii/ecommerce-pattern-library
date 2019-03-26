@@ -56,3 +56,7 @@ patterns:
       description: |
         Legends are used as labels for fieldset.
       width: "16em"
+    number-picker:
+      title: "Number Picker"
+      description: |
+        Number pickers should be used when ever the user will have to select an amount.

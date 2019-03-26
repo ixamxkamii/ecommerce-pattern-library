@@ -4,8 +4,8 @@ description: |
   Orange French Macarons are a big treat all year round. If you love Orange and macarons then you will adore these tasty combinations with lots of variations. The flavor options are endless.
 non_conflict: true
 image: "/images/product/orange-macaron.jpg"
-price: 20
-amount: 6
+price: $20
+amount: half a dozen
 ingredients:
   - Almonds
   - Powdered Sugar
