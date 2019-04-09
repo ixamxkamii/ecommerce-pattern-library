@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div class="grid">
+  <div class="unit xs-1 m-1 l-1-2 dark-bg island">
+
+    <div class="embed embed-1by1">
+        <img class="img-flex embed-item" src="/images/product/raspberry-macaron.jpg" alt="raspberry">
+    </div>
+    <h2>Raspberry Macaroon</h2>
+    <h3>20.00$ / Half-Dozen</h3>
+    <div class="push grid grid-bottom">
+      <div class="unit xs-1-2">
+        {% pattern forms/text-input label="Discount Code" %}
+      </div>
+      <div class="unit xs-1-2">
+        {% pattern buttons/basic text="Apply" url="#" %}
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <h4>Subtotal: 20.00$</h4>
+      </div>
+      <div>
+        <h4>Shipping: Calculated at next step</h4>
+      </div>
+      <div>
+        <h4>Total: 20.00$</h4>
+      </div>
+    </div>
+
+  </div>
+  <div class="unit xs-1 m-1 l-1-2 island">
+    <div class="push">
+      <h3>Contact Information</h3>
+      <p>Already have an account? <a href="#">Log in</a><p/>
+
+      {% pattern forms/email-input  label="Email" %}
+    </div>
+    <div class="push">
+      <h3>Shipping</h3>
+
+      <div class="push">
+        {% pattern forms/text-input label="First name" %}
+      </div>
+      <div class="push">
+        {% pattern forms/text-input label="Last name" %}
+      </div>
+      <div class="push">
+        {% pattern forms/text-input label="Address" %}
+      </div>
+      <div class="push">
+        {% pattern forms/text-input label="Apartment" %}
+      </div>
+      <div class="push">
+        {% pattern forms/text-input label="City" %}
+      </div>
+      <div class="push">
+        {% pattern forms/drop-down label="Province" text="Ontario" %}
+      </div>
+      <div class="push">
+        {% pattern forms/drop-down label="Country" text="Canada" %}
+      </div>
+      <div class="push">
+        {% pattern forms/text-input label="Postal Code" %}
+      </div>
+      <div class="push">
+        {% pattern forms/text-input label="Phone Number" %}
+      </div>
+
+    </div>
+    <div class="pad-t-2">
+      {% pattern buttons/basic text="Continue" url="#" %}
+    </div>
+    </div>
+
+
+  </div>
+
+</div>
