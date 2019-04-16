@@ -6,6 +6,10 @@
   color: var(--color-primary-bright);
 }
 
+.privacy:hover {
+  color: var(--color-primary-bright);
+}
+
 .padding-l {
   padding-left: 25px;
 }

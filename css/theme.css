@@ -94,7 +94,7 @@ a {
   color: var(--color-primary-dark);
 }
 
-mark {
+mark, .lt-pink-bg {
   background-color: var(--color-primary-light);
 }
 
@@ -108,4 +108,16 @@ a {
 
 .dark-bg {
   background-color: var(--color-background-dark);
+}
+
+.white {
+  color: var(--color-background);
+}
+
+.dark-pink-bg {
+  background: var(--color-primary-dark);
+}
+
+.primary-bg {
+  background-color: var(--color-primary);
 }

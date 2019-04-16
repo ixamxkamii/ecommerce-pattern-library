@@ -5,9 +5,17 @@ background: "--color-primary-light"
 
 patterns:
     checkbox:
-      title: "Checkbox"
+      title: "Checkboxes"
       description: |
-        Checkboxes should be used when the user has to select more then one option.
+        Regular checkboxes should be used when the user has to agree and decline something and theres only one checkbox used.
+      fields:
+        - name: text
+          type: string
+          example: "I agree"
+    checkbox-legend:
+      title: "Checkbox with Legend"
+      description: |
+        Checkboxes with a legend should be used when the user has or can select more then one option.
       fields:
         - name: text
           type: string

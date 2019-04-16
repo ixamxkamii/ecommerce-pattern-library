@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="text-center dark-pink-bg">
+  <h3 class="white island-1-2 push-0">Bulk promotion happening now!</h3>
+</div>
+
+<div class="push">
+  {% pattern banners/banner-right heading="Bulk Sale" text="Save big when buying in bulk!" image="/images/banner-bulk.jpg" %}
+</div>
+
+<div class="grid push">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+    {% pattern cards/card-category button_text="Buy Now" button_url="/products/" image="/images/birthday-cake-l.jpg" heading="Birthday Cake Macarons" text="Covered in multicolor sprinkles" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+    {% pattern cards/card-category button_text="Buy Now" button_url="#" image="/images/raspberry-l.jpg" heading="Raspberry Macarons" text="A perfect mix of sweet and sour" %}
+  </div>
+</div>
+
+<div class="lt-pink-bg">
+  <div class="wrapper">
+    <h3 class="push-0">Bulk Pricing</h3>
+  </div>
+  <table class="wrapper push">
+    <thead>
+      <tr>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price/Half-Dozen</th>
+        <th scope="col">Discount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="bold">1-2</td>
+        <td>$18.00</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td class="bold">3-9</td>
+        <td>$15.00</td>
+        <td>25%</td>
+      </tr>
+      <tr>
+        <td class="bold">10+</td>
+        <td>$10.00</td>
+        <td>50%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="primary-bg">
+  <div class="wrapper pad-t-1-2">
+    <h3 class="push-1-2 white">Sign Up for our news letter</h3>
+  </div>
+  <div class="grid wrapper">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push">
+      {% pattern forms/text-input label="Full Name" %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push">
+      {% pattern forms/email-input label="Email" %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push">
+      {% pattern forms/checkbox text="I agree to receive promotional emails from Jolie Patisserie" %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push">
+      {% pattern buttons/submit text="Submit" %}
+    </div>
+  </div>
+</div>

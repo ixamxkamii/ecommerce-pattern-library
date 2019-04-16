@@ -46,9 +46,12 @@
     </li>
   </ul>
   <ul class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2 text-right list-group-inline push-0 padding-r">
-    <li class="island-1-2"><a class="push-r-1-2 nav-link-l">Sweet</a></li>
-    <li class="island-1-2"><a class="push-r-1-2 nav-link-l">Savory</a></li>
-    <li class="island-1-2"><a class="push-r-1-2 nav-link-l">Location</a></li>
-    <li class="island-1-2"><a class="push-r-1-2 nav-link-l">About</a></li>
+    <li class="island-1-2 {% if page.highlight_nav == 'products' %}current{% endif %}"><a class="push-r-1-2 nav-link-l">Sweet</a></li>
+    <li class="island-1-2 {% if page.highlight_nav == 'savory' %}current{% endif %}"><a class="push-r-1-2 nav-link-l">Savory</a></li>
+    <li class="island-1-2 {% if page.highlight_nav == 'locations' %}current{% endif %}"><a class="push-r-1-2 nav-link-l">Location</a></li>
+    <li class="island-1-2 {% if page.highlight_nav == 'about' %}current{% endif %}"><a class="push-r-1-2 nav-link-l">About</a></li>
   </ul>
+  <div class="unit unit-offset-m-1-2 unit-offset-l-1-2 xs-1 s-1 m-1-2 l-1-2 island-1-2 text-right padding-r">
+    <a class="privacy" href="/terms-privacy/">Privacy and cookie policy & Terms of use</a>
+  </div>
 </div>
